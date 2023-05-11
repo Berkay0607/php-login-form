@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(
+        rgba(0,0,0, .7),
+        rgba(0,0,0, .7)
+    ),url(../resimler/team.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    height: 60px;
+    width: 100px;
+}
+
+.form{
+    box-shadow: 3px 3px 6px #000;
+    border-radius: 40px;
+    
+}
+.input{
+    background-color: whitesmoke;
+}
+.quicklinks:hover{
+    opacity: 0.84;
+}
+
+
+
+
+
+
+  @media only screen and (max-width: 576px) {
+    .container{
+        width: 80%;
+    }
+  }
+  
